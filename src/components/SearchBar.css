@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    min-width: 300px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #777;
+    transition: min-width 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-bottom: 2px solid #fff;
+    min-width: 350px;
+}
+
+button[type="submit"] {
+    width: 100px;
+    font-weight: bold;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.formTag {
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
+
+/* inputField[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    min-width: 300px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #777;
+    transition: min-width 0.3s ease;
+}
+
+inputField[type="text"]:focus {
+    border-bottom: 2px solid #fff;
+    min-width: 350px;                                               */
