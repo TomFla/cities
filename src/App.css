@@ -6,8 +6,8 @@
 
 .App {
     text-align: center;
-    padding-top: 50px;
-    background-image: url('./img/1-earth.jpg');
+    background-image: url('./img/industries2.png');
+    filter: grayscale(95%) brightness(150%);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;

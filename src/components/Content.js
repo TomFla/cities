@@ -7,6 +7,7 @@ class Content extends React.Component {
       <div className="content">
         <h1>Tu będzie wynik z zapytania...</h1>
         <p>Content component</p>
+        <h2> {this.props.city} </h2>
       </div>
     );
   }

@@ -1,43 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-input[type="text"] {
-    padding: 5px;
-    font-size: 18px;
-    line-height: 24px;
-    color: #fff;
-    min-width: 300px;
-    border: none;
-    background: none;
-    border-bottom: 2px solid #777;
-    transition-property: min-width border-botom;
-    transition: 0.3s ease;
-}
-
-input[type="text"]:focus {
-    border-bottom: 2px solid #fff;
-    min-width: 350px;
-}
-
-input[type="text"]::placeholder {
-    text-align: center;
-}
-
-button[type="submit"] {
-    width: 100px;
-    font-size: 18px;
-    font-weight: bold;
-    background: white;
-    border: none;
-    border-radius: 5px;
-    color: black;
-    cursor: pointer;
-    opacity: 0.5;
-    transition: opacity 0.2s ease;
-}
-
-button[type="submit"]:hover {
-    opacity: .9;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    input[type="text"] {
+        padding: 5px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #222;
+        min-width: 300px;
+        border: none;
+        background: none;
+        border-bottom: 2px solid #666;
+        transition-property: min-width border-botom;
+        transition: 0.3s ease;
+    }
+    
+    input[type="text"]:focus {
+        border-bottom: 2px solid #fff;
+        min-width: 350px;
+    }
+    
+    input[type="text"]::placeholder {
+        text-align: center;
+    }
+    
+    button[type="submit"] {
+        width: 150px;
+        font-size: 18px;
+        font-weight: bold;
+        background: white;
+        border: none;
+        border-radius: 5px;
+        color: black;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: opacity 0.2s ease;
+    }
+    
+    button[type="submit"]:hover {
+        opacity: .9;
+    }
+    
+    .inputField {
+        padding: 50px;
+        background-color: rgba(187, 187, 187, 0.699);
+        backdrop-filter: blur(8px);
+    }

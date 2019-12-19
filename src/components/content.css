@@ -12,8 +12,7 @@
     bottom: 50px;
     width: 60%;
     min-height: 60vh;
-    background-color: #bbb;
-    backdrop-filter: blur(20px);
-    opacity: .75;
+    background-color: rgba(187, 187, 187, 0.699);
+    backdrop-filter: blur(8px);
     border-radius: 25px;
 }

@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <SearchBar />
-      <Content />
+      <Content city="Katowice" />
     </div>
   );
 }
