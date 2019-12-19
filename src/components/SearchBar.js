@@ -4,15 +4,21 @@ import "./SearchBar.css";
 class SearchBar extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
-    let city = document.getElementById("input");
-    console.log(city);
+    const inputField = document.getElementById("input");
+    const url = "https://api.openaq.org/v1/cities";
+    const wordQuery = inputField.value;
+    console.log(wordQuery);
   };
 
   render() {
     return (
       <div className="inputField">
-        <form onSubmit={this.handleSubmit}>
-          <input type="text" placeholder="Check 10 most polluted cities" />
+        <form>
+          <input
+            id="input"
+            type="text"
+            placeholder="Check 10 most polluted cities"
+          />
           <button type="submit">Start</button>
         </form>
       </div>
