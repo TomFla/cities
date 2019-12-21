@@ -7,6 +7,8 @@ class SearchBar extends React.Component {
     const inputField = document.getElementById("input");
     const url = "https://api.openaq.org/v1/countries";
     const wordQuery = inputField.value;
+    //const responseField = document.getElementById("content");
+
     console.log(wordQuery, url);
   };
 
